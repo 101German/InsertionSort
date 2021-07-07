@@ -1,0 +1,6 @@
+E:\БОРОВ\InsertionSort\InsertionSort\bin\Debug\InsertionSort.dll
+E:\БОРОВ\InsertionSort\InsertionSort\bin\Debug\InsertionSort.pdb
+E:\БОРОВ\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csprojAssemblyReference.cache
+E:\БОРОВ\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csproj.CoreCompileInputs.cache
+E:\БОРОВ\InsertionSort\InsertionSort\obj\Debug\InsertionSort.dll
+E:\БОРОВ\InsertionSort\InsertionSort\obj\Debug\InsertionSort.pdb
