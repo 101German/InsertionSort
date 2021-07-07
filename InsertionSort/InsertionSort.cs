@@ -8,9 +8,9 @@ namespace InsertionSort
 {
     public static class InsertionSort
     {
-        static void Sort<T>(T[] array) where T : IComparable
+        static IList<T> Sort<T>(IList<T> array) where T : IComparable<T>
         {
-            for (int i = 1; i < array.Length; i++)
+            for (int i = 1; i < array.Count; i++)
             {
                 int j = i;
 
@@ -26,6 +26,8 @@ namespace InsertionSort
 
 
             }
+
+            return array;
 
 
         }
