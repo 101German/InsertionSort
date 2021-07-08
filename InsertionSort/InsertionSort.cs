@@ -8,17 +8,17 @@ namespace InsertionSort
 {
     public static class InsertionSort
     {
-        static IList<T> Sort<T>(IList<T> array) where T : IComparable<T>
+        static IList<T> Sort<T>(IList<T> container) where T : IComparable<T>
         {
-            for (int i = 1; i < array.Count; i++)
+            for (int i = 1; i < container.Count; i++)
             {
                 int j = i;
 
-                while ((j > 0) && (array[j - 1].CompareTo(array[j]) > 0))
+                while ((j > 0) && (container[j - 1].CompareTo(container[j]) > 0))
                 {
-                    var temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                    var temp = container[j];
+                    container[j-1] = container[j];
+                    container[j] = temp;
 
                     j--;
                 }
@@ -27,7 +27,7 @@ namespace InsertionSort
 
             }
 
-            return array;
+            return container;
 
 
         }
