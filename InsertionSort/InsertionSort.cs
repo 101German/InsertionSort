@@ -17,8 +17,8 @@ namespace InsertionSort
                 while ((j > 0) && (container[j - 1].CompareTo(container[j]) > 0))
                 {
                     var temp = container[j];
-                    container[j-1] = container[j];
-                    container[j] = temp;
+                    container[j] = container[j-1];
+                    container[j-1] = temp;
 
                     j--;
                 }
